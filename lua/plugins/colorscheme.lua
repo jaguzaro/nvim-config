@@ -7,11 +7,19 @@ return {
   { "rose-pine/neovim", name = "rose-pine", lazy = true },
   { "sainnhe/everforest", lazy = true },
   { "navarasu/onedark.nvim", lazy = true },
-
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = true,
+    opts = {
+      transparent = true, -- esto activa el fondo transparente
+      saturation = 0.5,
+      terminal_colors = true,
+    },
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "kanagawa-wave",
     },
   },
 }
